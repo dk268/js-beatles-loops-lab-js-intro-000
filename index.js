@@ -26,7 +26,8 @@ function johnLennonFacts(factsArray){
 function iLoveTheBeatles (number){
   var vapid = [];
   do {vapid[number]="I love the Beatles!";
-      number++;}
+    number= number+1;
+    }
     while (number < 15);
     return vapid;
   }
