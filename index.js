@@ -20,6 +20,7 @@ function johnLennonFacts(factsArray){
     factsArray[i] = `${factsArray[i]}!!!`
     i++
   }
+  return factsArray;
 }
 
 function iLoveTheBeatles (number){
@@ -27,4 +28,5 @@ function iLoveTheBeatles (number){
   do {vapid[number]="I love the Beatles!";
       number++;}
     while (number < 15);
+    return vapid;
   }
